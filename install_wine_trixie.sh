@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Demander le mot de passe administrateur
+sudo -v
+
 # Ajouter l'architecture i386
 sudo dpkg --add-architecture i386
 
